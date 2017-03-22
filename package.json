@@ -5,11 +5,16 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install && npm install browser-sync --save-dev"
+    "postinstall": "bower install"
   },
   "author": "Alex Galkin",
   "homepage": "https://github.com/SOURUS",
   "license": "MIT",
+  "dependencies": {
+    "typescript": "^2.2.1",
+    "gulp": "^3.9.1",
+    "browser-sync": "^2.18.8"
+  },
   "devDependencies": {
     "@angular/common": "^2.4.10",
     "@angular/compiler": "^2.4.10",
@@ -24,7 +29,6 @@
     "angular-in-memory-web-api": "^0.3.1",
     "bootstrap-sass": "^3.3.7",
     "core-js": "^2.4.1",
-    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-bower": "0.0.13",
     "gulp-clean-css": "^3.0.4",
@@ -35,7 +39,6 @@
     "reflect-metadata": "^0.1.10",
     "rxjs": "^5.0.1",
     "systemjs": "^0.20.10",
-    "typescript": "^2.2.1",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.7.2"
   }
 }
