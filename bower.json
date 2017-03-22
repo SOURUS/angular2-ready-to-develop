@@ -1,0 +1,19 @@
+{
+  "name": "mein_app",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Alex Galkin"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/SOURUS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
